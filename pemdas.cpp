@@ -23,3 +23,10 @@ public:
     friend void persegiPanjang::inputData(bangunDatar &bd);
     friend void persegiPanjang::outputData(bangunDatar &bd);   
 };
+
+void persegiPanjang::inputData(BangunDatar &bd){
+    cout << "Masukkan panjang: ";
+    cin >> bd.panjang;
+    cout << "Masukan lebar : ";
+    cin >> bd.lebar;
+}
