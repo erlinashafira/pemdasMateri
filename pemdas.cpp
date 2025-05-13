@@ -2,3 +2,7 @@
 using namespace std;
 
 class bangunDatar;
+
+class persegiPanjang{
+    
+}
