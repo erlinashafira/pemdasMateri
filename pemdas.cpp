@@ -30,3 +30,15 @@ void persegiPanjang::inputData(BangunDatar &bd){
     cout << "Masukan lebar : ";
     cin >> bd.lebar;
 }
+
+void persegiPanjang::outputData(bangunDatar &bd){
+    cout << "Luas : "<< bd.hitungLuas() << endl;
+    cout << "Kelnling : "<<bd.hitungKeliling() << endl;
+};
+
+int main(){
+    persegiPanjang pP;
+    bangunDatar bD;
+    pP.inputData(bD);
+    pP.inputData(bD);
+};
